@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src = "script.js"></script>
+</head>
+
+<body>
+    <ul>
+       <a href="index.html" class="banner"><li>Home</li></a>
+       <a href="aboutus.html"class="banner"> <li>About us</li></a>
+       <a href="survey.html"class="banner"> <li>Survey</li></a>
+       <a href="awareness.html"class="banner"><li>Awareness</li></a>
+    </ul>
+
+<a href="index.html">
+ <img src="https://i.pinimg.com/736x/33/13/a6/3313a67b19f3d18a02cea320d513747b.jpg" id = "logo" width = "80" height = "70"/>
+</a>
+
+ <p id="bluepersona">
+    BluePersona
+ </p>
+
+
+
+ <p id="title">Welcome to BluePersona</p>
+
+ <div id="petselect">
+<img src="jellyfish.png" onclick="selectimage('jellyfish')" class="pets" id="jellyfish"alt="">
+<img src="coifish.png" onclick="selectimage('coifish')"class="pets" id="coifish"alt="">
+<img src="turtle.png" onclick="selectimage('turtle')"class="pets" id="turtle"alt="">
+<img src="ray.png"onclick="selectimage('ray')"class="pets" id="ray"alt="">
+<img src="starfish.png" onclick="selectimage('starfish')" class="pets" id="starfish"alt="">
+<img src="whale.png" onclick="selectimage('whale')"class="pets" id="whale"alt="">
+
+<p id="choosepet">Choose your virtual pet </p>
+<p id="namelabel">What would you like to name it?</p>
+<input type="text" id="petname">
+
+<br><br>
+<button onclick="petname()" id="petsubmit"
+ >Done</button>
+
+</div>
+
+<div id="petoutput">
+   <img src="ray.png" id="outputimg" class="pets" alt="">
+</div>
+
+<p id="petnameplace"></p>
+</body>
+</html>
